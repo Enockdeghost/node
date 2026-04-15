@@ -32,3 +32,25 @@ let person = {
   age: 30,
   isStudent: true
 };   
+
+
+//object manipulation
+console.log(person.name); // John Doe
+console.log(person.age); // 30
+console.log(person.isStudent); // true  
+
+//nested object
+let student = {
+  name: "Jane Doe",
+  age: 25,
+  isStudent: true,
+  address: {
+    street: "123 Main St",
+    city: "Anytown",
+    state: "CA"
+  }
+};
+
+console.log(student.address.street); // 123 Main St
+console.log(student.address.city); // Anytown
+console.log(student.address.state); // CA
