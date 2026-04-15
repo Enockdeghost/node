@@ -1,0 +1,26 @@
+.box {
+    background-color: #fbffff;
+    border: 1px solid #ffd900;
+    height: 210px;
+    width: 9px;
+    position: relative;
+    transform: translateX(200px);
+    animation: moveBox 2s infinite ; 
+}
+
+.bubl{
+    background-color: #ffe600;
+    border-radius: 100%;
+    height: 90px;
+    width: 90px;
+    position: relative;
+    transform: translateX(160px);
+    animation: Bub 90ms infinite ; 
+}
+
+@keyframes Bub {
+    0% {background-color: aliceblue;}
+    50% {background-color: #fdf291;}    
+    80% {background-color: #eeda22;}
+    100% {background-color: aliceblue;}
+}
