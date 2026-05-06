@@ -1,6 +1,6 @@
 month = "January"
-month1 = month.toLowerCase()
-switch(month1) {
+// month1 = month.toLowerCase()
+switch(month.toLowerCase()){ 
     case "january":
         console.log("summer time");
         break;
