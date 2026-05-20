@@ -1,11 +1,23 @@
-function fuelCalculator(liters) {
-    return liters * 12; // 1 liter = 12 km
+// function sayhello() {
+//     return "hello";
+//  }
+
+//  function showmassage(){
+//     const message = sayhello();
+//     console.log(message);
+//  }
+
+//  showmassage();
+
+
+
+function sayHello(name) {
+    return "Hello " + name;
 }
 
-function carTrip(liters) {
-    const distance = fuelCalculator(liters);
-
-    return `The car can travel ${distance} km`;
+function showMessage() {
+    const message = sayHello("Enock");
+    console.log(message);
 }
 
-console.log(carTrip(5));
+showMessage();
