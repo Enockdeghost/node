@@ -1,19 +1,11 @@
-
-function juicemixer(mango,orange){
-    const mngos = fruitsclleicart(mango);
-    const oranges = fruitsclleicart(orange);
-
-    if(mango === 0){
-        return `We have juice of orange only and the pieceses is ${oranges} `;
-    }
-    if(orange === 0){
-        return `We have juice of mango only and the pieceses is ${mngos} `;
-    }
-    return `We have juice of mango ${mngos} pieces and juice of orange ${oranges} pieces`;
+function fuelCalculator(liters) {
+    return liters * 12; // 1 liter = 12 km
 }
 
-function fruitsclleicart(fruit){
-    return fruit * 4;
+function carTrip(liters) {
+    const distance = fuelCalculator(liters);
+
+    return `The car can travel ${distance} km`;
 }
 
-console.log(juicemixer(1,3));
+console.log(carTrip(5));
