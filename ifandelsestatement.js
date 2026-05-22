@@ -20,8 +20,7 @@ if (score >= 90) {
     console.log("Grade: F");
 }
 
-//switch statement
-var day = 3;
+//switch statementvar day = 3;
 switch (day) {
     case 1:
         console.log("Monday");
